@@ -1,0 +1,3 @@
+https://medium.com/capillary-data-science/rfm-analysis-an-effective-customer-segmentation-technique-using-python-58804480d232
+https://towardsdatascience.com/rfm-analysis-using-bigquery-ml-bfaa51b83086
+https://www.kaggle.com/vijayuv/onlineretail
