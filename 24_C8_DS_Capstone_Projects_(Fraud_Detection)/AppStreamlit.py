@@ -11,13 +11,10 @@ html_temp = """
 <h2 style="color:white;text-align:center;">Fraud Detection</h2>
 </div><br>"""
 
-
 st.markdown(html_temp,unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: Black;'>Select Your Model</h1>", unsafe_allow_html=True)
 
 selection = st.selectbox("", ["Logistic Regression","Random Forest"])
-
-
 
 if selection =="Logistic Regression":
 	st.write("You selected", selection, "model")
@@ -37,7 +34,6 @@ v14 = st.sidebar.slider(label="V14-PCA", min_value=-20.00, max_value=5.00, step=
 v16 = st.sidebar.slider(label="V16-PCA", min_value=-15.00, max_value=20.00, step=0.01)
 v17 = st.sidebar.slider(label="V17-PCA", min_value=-30.00, max_value=10.00, step=0.01)
 
-
 coll_dict = {'V2-PCA':v2, 'V3-PCA':v3, 'V4-PCA':v4, 'V7-PCA':v7, 'V10-PCA':v10,\
 			'V11-PCA':v11, 'V12-PCA':v12, 'V14-PCA':v14, 'V16-PCA':v16, 'V17-PCA':v17}
 
@@ -48,11 +44,9 @@ user_inputs = df_coll
 
 prediction = model.predict(user_inputs)
 
-
 html_temp = """
 <div style="background-color:Black;padding:10px">
 <h2 style="color:white;text-align:center;">Fraud Detection Prediction - Group - 4</h2>
-
 
 </div><br>"""
 
