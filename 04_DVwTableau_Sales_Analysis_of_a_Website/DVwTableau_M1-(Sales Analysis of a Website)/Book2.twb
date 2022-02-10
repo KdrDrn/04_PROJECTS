@@ -1,0 +1,698 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0712.0907                               -->
+<workbook original-version='18.1' source-build='2021.2.1 (20212.21.0712.0907)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='world-happiness-report-2021' inline='true' name='federated.0grz891141uwat1glsw551dsp5ga' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='world-happiness-report-2021' name='textscan.1bug0n20o7wztx11xr09j0j3asrd'>
+            <connection class='textscan' directory='C:/Users/Toshiba/Downloads/Study_With_KaanHoca/Data Analyst' filename='world-happiness-report-2021.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1bug0n20o7wztx11xr09j0j3asrd' name='world-happiness-report-2021.csv' table='[world-happiness-report-2021#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Country name' ordinal='0' />
+            <column datatype='string' name='Regional indicator' ordinal='1' />
+            <column datatype='real' name='Ladder score' ordinal='2' />
+            <column datatype='real' name='Standard error of ladder score' ordinal='3' />
+            <column datatype='real' name='upperwhisker' ordinal='4' />
+            <column datatype='real' name='lowerwhisker' ordinal='5' />
+            <column datatype='real' name='Logged GDP per capita' ordinal='6' />
+            <column datatype='real' name='Social support' ordinal='7' />
+            <column datatype='real' name='Healthy life expectancy' ordinal='8' />
+            <column datatype='real' name='Freedom to make life choices' ordinal='9' />
+            <column datatype='real' name='Generosity' ordinal='10' />
+            <column datatype='real' name='Perceptions of corruption' ordinal='11' />
+            <column datatype='real' name='Ladder score in Dystopia' ordinal='12' />
+            <column datatype='real' name='Explained by: Log GDP per capita' ordinal='13' />
+            <column datatype='real' name='Explained by: Social support' ordinal='14' />
+            <column datatype='real' name='Explained by: Healthy life expectancy' ordinal='15' />
+            <column datatype='real' name='Explained by: Freedom to make life choices' ordinal='16' />
+            <column datatype='real' name='Explained by: Generosity' ordinal='17' />
+            <column datatype='real' name='Explained by: Perceptions of corruption' ordinal='18' />
+            <column datatype='real' name='Dystopia + residual' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1bug0n20o7wztx11xr09j0j3asrd' name='world-happiness-report-2021.csv' table='[world-happiness-report-2021#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Country name' ordinal='0' />
+            <column datatype='string' name='Regional indicator' ordinal='1' />
+            <column datatype='real' name='Ladder score' ordinal='2' />
+            <column datatype='real' name='Standard error of ladder score' ordinal='3' />
+            <column datatype='real' name='upperwhisker' ordinal='4' />
+            <column datatype='real' name='lowerwhisker' ordinal='5' />
+            <column datatype='real' name='Logged GDP per capita' ordinal='6' />
+            <column datatype='real' name='Social support' ordinal='7' />
+            <column datatype='real' name='Healthy life expectancy' ordinal='8' />
+            <column datatype='real' name='Freedom to make life choices' ordinal='9' />
+            <column datatype='real' name='Generosity' ordinal='10' />
+            <column datatype='real' name='Perceptions of corruption' ordinal='11' />
+            <column datatype='real' name='Ladder score in Dystopia' ordinal='12' />
+            <column datatype='real' name='Explained by: Log GDP per capita' ordinal='13' />
+            <column datatype='real' name='Explained by: Social support' ordinal='14' />
+            <column datatype='real' name='Explained by: Healthy life expectancy' ordinal='15' />
+            <column datatype='real' name='Explained by: Freedom to make life choices' ordinal='16' />
+            <column datatype='real' name='Explained by: Generosity' ordinal='17' />
+            <column datatype='real' name='Explained by: Perceptions of corruption' ordinal='18' />
+            <column datatype='real' name='Dystopia + residual' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country name]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Country name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Regional indicator</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Regional indicator]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Regional indicator</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ladder score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ladder score]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Ladder score</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Standard error of ladder score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Standard error of ladder score]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Standard error of ladder score</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>upperwhisker</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[upperwhisker]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>upperwhisker</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lowerwhisker</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lowerwhisker]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>lowerwhisker</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Logged GDP per capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Logged GDP per capita]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Logged GDP per capita</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Social support</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Social support]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Social support</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Healthy life expectancy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Healthy life expectancy]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Healthy life expectancy</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Freedom to make life choices</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Freedom to make life choices]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Freedom to make life choices</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Generosity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Generosity]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Generosity</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Perceptions of corruption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Perceptions of corruption]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Perceptions of corruption</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ladder score in Dystopia</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ladder score in Dystopia]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Ladder score in Dystopia</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Explained by: Log GDP per capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Explained by: Log GDP per capita]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Explained by: Log GDP per capita</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Explained by: Social support</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Explained by: Social support]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Explained by: Social support</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Explained by: Healthy life expectancy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Explained by: Healthy life expectancy]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Explained by: Healthy life expectancy</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Explained by: Freedom to make life choices</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Explained by: Freedom to make life choices]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Explained by: Freedom to make life choices</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Explained by: Generosity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Explained by: Generosity]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Explained by: Generosity</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Explained by: Perceptions of corruption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Explained by: Perceptions of corruption]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Explained by: Perceptions of corruption</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dystopia + residual</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dystopia + residual]</local-name>
+            <parent-name>[world-happiness-report-2021.csv]</parent-name>
+            <remote-alias>Dystopia + residual</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='world-happiness-report-2021.csv' datatype='table' name='[__tableau_internal_object_id__].[world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Turkey&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='world-happiness-report-2021.csv' id='world-happiness-report-2021.csv_03F896285E9245EAAE67A18C825E228D'>
+            <properties context=''>
+              <relation connection='textscan.1bug0n20o7wztx11xr09j0j3asrd' name='world-happiness-report-2021.csv' table='[world-happiness-report-2021#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Country name' ordinal='0' />
+                  <column datatype='string' name='Regional indicator' ordinal='1' />
+                  <column datatype='real' name='Ladder score' ordinal='2' />
+                  <column datatype='real' name='Standard error of ladder score' ordinal='3' />
+                  <column datatype='real' name='upperwhisker' ordinal='4' />
+                  <column datatype='real' name='lowerwhisker' ordinal='5' />
+                  <column datatype='real' name='Logged GDP per capita' ordinal='6' />
+                  <column datatype='real' name='Social support' ordinal='7' />
+                  <column datatype='real' name='Healthy life expectancy' ordinal='8' />
+                  <column datatype='real' name='Freedom to make life choices' ordinal='9' />
+                  <column datatype='real' name='Generosity' ordinal='10' />
+                  <column datatype='real' name='Perceptions of corruption' ordinal='11' />
+                  <column datatype='real' name='Ladder score in Dystopia' ordinal='12' />
+                  <column datatype='real' name='Explained by: Log GDP per capita' ordinal='13' />
+                  <column datatype='real' name='Explained by: Social support' ordinal='14' />
+                  <column datatype='real' name='Explained by: Healthy life expectancy' ordinal='15' />
+                  <column datatype='real' name='Explained by: Freedom to make life choices' ordinal='16' />
+                  <column datatype='real' name='Explained by: Generosity' ordinal='17' />
+                  <column datatype='real' name='Explained by: Perceptions of corruption' ordinal='18' />
+                  <column datatype='real' name='Dystopia + residual' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='world-happiness-report-2021' name='federated.0grz891141uwat1glsw551dsp5ga' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0grz891141uwat1glsw551dsp5ga'>
+            <column datatype='string' name='[Country name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Regional indicator]' role='dimension' type='nominal' />
+            <column-instance column='[Country name]' derivation='Count' name='[cnt:Country name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Regional indicator]' derivation='None' name='[none:Regional indicator:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0grz891141uwat1glsw551dsp5ga].[none:Regional indicator:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0grz891141uwat1glsw551dsp5ga].[cnt:Country name:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0grz891141uwat1glsw551dsp5ga].[cnt:Country name:qk]</rows>
+        <cols>[federated.0grz891141uwat1glsw551dsp5ga].[none:Regional indicator:nk]</cols>
+      </table>
+      <simple-id uuid='{1DDF0D22-50BA-487A-B0B0-BE06791E8435}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='world-happiness-report-2021' name='federated.0grz891141uwat1glsw551dsp5ga' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0grz891141uwat1glsw551dsp5ga'>
+            <column datatype='real' name='[Ladder score]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Logged GDP per capita]' role='measure' type='quantitative' />
+            <column-instance column='[Ladder score]' derivation='Sum' name='[sum:Ladder score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Logged GDP per capita]' derivation='Sum' name='[sum:Logged GDP per capita:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0grz891141uwat1glsw551dsp5ga].[sum:Logged GDP per capita:qk]</rows>
+        <cols>[federated.0grz891141uwat1glsw551dsp5ga].[sum:Ladder score:qk]</cols>
+      </table>
+      <simple-id uuid='{78B29C54-4669-42EE-BB88-9A536961C3B6}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0grz891141uwat1glsw551dsp5ga].[none:Country name:nk]</field>
+            <field>[federated.0grz891141uwat1glsw551dsp5ga].[none:Regional indicator:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{49BE1F57-5F06-4B60-8A61-6DBD8D717F4A}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0grz891141uwat1glsw551dsp5ga].[none:Regional indicator:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{583CC771-425A-47EB-BE4D-DFB381A4BAED}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      rCf/B+XON2ax5kEFAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
